@@ -26,7 +26,7 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-brand">
     
-            <p className="footer-tagline">Turning ideas into elegant solutions</p>
+            <p className="footer-tagline">Turn your ideas into code</p>
           </div>
           <div className="footer-copyright">
             <p className="footer-developer">

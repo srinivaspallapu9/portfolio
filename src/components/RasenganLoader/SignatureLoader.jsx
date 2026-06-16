@@ -920,7 +920,6 @@ const PATHS = [
     { d: "M0 0 C0 0.66 0 1.32 0 2 C-3.67387495 2.85298376 -7.0447393 3.10789471 -10.8125 3.0625 C-12.27623047 3.04896484 -12.27623047 3.04896484 -13.76953125 3.03515625 C-14.87361328 3.01775391 -14.87361328 3.01775391 -16 3 C-15.67 2.34 -15.34 1.68 -15 1 C-10.03901518 -0.24024621 -5.07558808 -0.10151176 0 0 Z ", f: "#999595", x: 860.0, y: 557.2 },
     { d: "M0 0 C-2 2 -2 2 -5.625 2.125 C-6.73875 2.08375 -7.8525 2.0425 -9 2 C-8.67 1.34 -8.34 0.68 -8 0 C-4.71585695 -0.95067299 -3.30306592 -1.10102197 0 0 Z ", f: "#999893", x: 925.0, y: 566.2 }
 ];
-
 const VW = 925;
 const VH = 726;
 
@@ -929,7 +928,7 @@ const SignatureLoader = ({
     onComplete,
 }) => {
     const pathRefs = useRef([]);
-    const [progress, setProgress] = useState(0);
+    const [, setProgress] = useState(0); // Use underscore to ignore the unused state value
     const [done, setDone] = useState(false);
 
     useEffect(() => {
@@ -982,16 +981,6 @@ const SignatureLoader = ({
                         />
                     ))}
                 </svg>
-            </div>
-
-            <div className="sig-loader__footer">
-                <span className="sig-loader__pct">{progress}%</span>
-                <div className="sig-loader__track">
-                    <div
-                        className="sig-loader__bar"
-                        style={{ width: `${progress}%` }}
-                    />
-                </div>
             </div>
         </div>
     );
