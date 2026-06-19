@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 A **full-stack professional portfolio** built with **React.js** and **Firebase**. Features a dynamic admin dashboard for content management, responsive design, and real-time data updates without server maintenance.
 
 **[Live Demo](https://srinivasapallapu9.web.app)** | **[GitHub](https://github.com/Srinivas-pallapu/portfolio)**
@@ -127,7 +126,7 @@ portfolio/
 ├── firebase.json            # Firebase config
 ├── package.json             # Dependencies & scripts
 └── README.md                # This file
-=======
+
 <!-- ===================== HERO SECTION ===================== -->
 
 <div align="center">
@@ -199,7 +198,7 @@ graph TD
     Dashboard --> Firestore
     Firestore --> Frontend
 >>>>>>> ce2ad2e4f1ac1fd2df9a8787149e4ddcb7d0382e
-```
+
 
 ---
 
