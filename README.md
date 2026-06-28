@@ -3,8 +3,7 @@ A **full-stack professional portfolio** built with **React.js** and **Firebase**
 
 **[Live Demo](https://srinivasapallapu9.web.app)** | **[GitHub](https://github.com/Srinivas-pallapu/portfolio)**
 
----
-
+--
 ## 🎯 Overview
 
 This portfolio website is a modern, scalable solution that showcases technical skills, projects, and certifications. Unlike static portfolios, it includes a powerful admin dashboard that allows you to manage all content dynamically—no coding required.
